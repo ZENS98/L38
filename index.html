@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<!-- ===== PHẦN CÀI ĐẶT CHUNG WEBSITE ===== -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L38 Import Export Company</title>
+
+<!-- CSS giao diện -->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+<!-- ===== BACKGROUND ANIMATION (canvas chạy nền) ===== -->
+<canvas id="bg"></canvas>
+
+
+<!-- ===================================== -->
+<!-- ===== HEADER / THANH MENU WEBSITE ===== -->
+<!-- ===================================== -->
+
+<header class="navbar">
+
+<!-- ===== LOGO CÔNG TY ===== -->
+<div class="logo">
+<img src="assets/logo.png" alt="L38 Logo">
+<span>ÂU VÕ LONG</span>
+</div>
+
+
+<!-- ===== MENU ĐIỀU HƯỚNG ===== -->
+<nav class="menu">
+
+<a id="menuHome" href="#home">Home</a>
+<a id="menuAbout" href="#about">About</a>
+<a id="menuServices" href="#services">Services</a>
+<a id="menuContact" href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- ===== NÚT CHỌN NGÔN NGỮ ===== -->
+<div class="lang">
+
+<button onclick="setLang('vi')">VI</button>
+<button onclick="setLang('en')">EN</button>
+<button onclick="setLang('jp')">JP</button>
+<button onclick="setLang('hi')">HI</button>
+
+</div>
+
+</header>
+
+
+
+<!-- ===================================== -->
+<!-- ===== PHẦN TRANG CHỦ / HERO ===== -->
+<!-- ===================================== -->
+
+<section id="home" class="hero">
+
+<!-- TIÊU ĐỀ WEBSITE -->
+<h1 id="title">CÔNG TY L38</h1>
+
+<!-- MÔ TẢ NGẮN -->
+<p id="subtitle">Import Export Services & Trading</p>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- ===== PHẦN GIỚI THIỆU CÔNG TY ===== -->
+<!-- ===================================== -->
+
+<section id="about" class="card">
+
+<h2 id="aboutTitle">Giới thiệu</h2>
+
+<ul id="aboutText">
+
+<li>L38 Import Export là doanh nghiệp hoạt động trong lĩnh vực thương mại, dịch vụ và xuất nhập khẩu hàng hóa.</li>
+
+<li>Công ty được thành lập với mục tiêu kết nối giao thương trong nước và quốc tế, cung cấp các giải pháp thương mại hiệu quả cho khách hàng và đối tác.</li>
+
+<li>Với định hướng phát triển bền vững, L38 tập trung xây dựng hệ thống hoạt động chuyên nghiệp, minh bạch và đáng tin cậy trong lĩnh vực thương mại và logistics.</li>
+
+<li>Chúng tôi luôn hướng tới việc tối ưu quy trình vận hành, nâng cao chất lượng dịch vụ và đảm bảo hiệu quả chuỗi cung ứng cho khách hàng.</li>
+
+</ul>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- ===== PHẦN LĨNH VỰC HOẠT ĐỘNG ===== -->
+<!-- ===================================== -->
+
+<section id="services" class="card">
+
+<h2 id="serviceTitle">Lĩnh vực hoạt động</h2>
+
+<ul id="serviceText">
+
+<li>Phát triển mạng lưới đối tác trong nước và quốc tế nhằm mở rộng cơ hội thương mại và hợp tác lâu dài.</li>
+
+<li>Cung cấp các dịch vụ xuất nhập khẩu, thương mại và hỗ trợ giao thương với quy trình rõ ràng và chuyên nghiệp.</li>
+
+<li>Không ngừng nâng cao năng lực vận hành, quản lý và dịch vụ khách hàng để đáp ứng nhu cầu ngày càng cao của thị trường.</li>
+
+<li>Cam kết xây dựng mối quan hệ hợp tác bền vững – minh bạch – cùng phát triển với khách hàng và đối tác.</li>
+
+</ul>
+
+</section>
+
+
+
+<!-- ===================================== -->
+<!-- ===== PHẦN THÔNG TIN LIÊN HỆ ===== -->
+<!-- ===================================== -->
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="card">
+
+<h2 id="contactTitle">Thông tin liên hệ</h2>
+
+<div class="contact-wrapper">
+
+
+<!-- ===== CARD 1 ===== -->
+
+<div class="contact-card">
+
+<a href="https://zalo.me/0797955139" target="_blank">
+<img src="assets/QR AU VO LONG.png" class="qr">
+</a>
+
+<div class="contact-detail">
+
+<h3>MR. ÂU VÕ LONG</h3>
+
+<p class="position">Director</p>
+
+<p>📞 0797 955 139</p>
+
+<p>📍 140/9 Đào Sư Tích,<br>
+Ấp 3, Xã Nhà Bè,<br>
+TP.HCM</p>
+
+</div>
+
+</div>
+
+<!-- ===== CARD 2 ===== -->
+
+<div class="contact-card">
+
+<a href="https://zalo.me/0916602368" target="_blank">
+<img src="assets/QR VU HANG.png" class="qr">
+</a>
+
+<div class="contact-detail">
+
+<h3>MS. VŨ HẰNG</h3>
+
+<p class="position">Chief Financial Officer</p>
+
+<p>📞 0916 602 368</p>
+
+<p>📍 140/9 Đào Sư Tích,<br>
+Ấp 3, Xã Nhà Bè,<br>
+TP.HCM</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+<!-- ===================================== -->
+<!-- ===== FOOTER / CHÂN TRANG ===== -->
+<!-- ===================================== -->
+
+<footer>
+
+<p>© 2026 L38 Import Export Company</p>
+
+</footer>
+
+
+
+<!-- ===== FILE JAVASCRIPT ===== -->
+
+<!-- script đổi ngôn ngữ -->
+<script src="js/lang.js"></script>
+
+<!-- script background animation -->
+<script src="js/background.js"></script>
+
+
+</body>
+</html>
