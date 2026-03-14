@@ -1,4 +1,4 @@
-L38 Website (Fixed)
+L38 Website 
 
 Fix included:
 - Language switching now also updates menu items
