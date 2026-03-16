@@ -453,3 +453,26 @@ letter-spacing:1px;
 margin-bottom:6px;
 }
 
+/* ================= GOLD GLOW ANIMATION ================= */
+
+@keyframes goldGlow{
+
+0%{
+box-shadow:
+0 0 10px rgba(200,169,106,0.15),
+0 0 20px rgba(200,169,106,0.05);
+}
+
+50%{
+box-shadow:
+0 0 20px rgba(200,169,106,0.35),
+0 0 40px rgba(200,169,106,0.12);
+}
+
+100%{
+box-shadow:
+0 0 10px rgba(200,169,106,0.15),
+0 0 20px rgba(200,169,106,0.05);
+}
+
+}
