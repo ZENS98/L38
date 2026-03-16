@@ -216,7 +216,8 @@ grid-template-columns:repeat(2,1fr);
 gap:40px;
 margin-top:40px;
 
-align-items:stretch;
+justify-items:center;
+align-items:center;
 }
 
 /* CARD */
@@ -228,9 +229,8 @@ border-radius:14px;
 
 width:100%;
 max-width:420px;
-min-height:360px;   /* thêm dòng này */
+height:360px;
 
-margin:auto;
 text-align:center;
 
 border:1px solid rgba(200,169,106,0.25);
@@ -239,9 +239,11 @@ animation:goldGlow 4s ease-in-out infinite;
 
 transition:all 0.35s ease;
 
-display:flex;              /* thêm */
-flex-direction:column;     /* thêm */
-justify-content:center;    /* thêm */
+display:flex;
+flex-direction:column;
+justify-content:center;
+
+backdrop-filter:blur(8px);
 }
 
 /* HOVER EFFECT */
@@ -384,6 +386,10 @@ grid-template-columns:1fr;
 
 .contact-grid{
 grid-template-columns:1fr;
+}
+
+.contact-card{
+height:auto;
 }
 
 .section{
