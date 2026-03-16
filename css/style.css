@@ -247,6 +247,44 @@ box-shadow:
 transition:all 0.35s ease;
 }
 
+/* ================= CONTACT NAME STYLE ================= */
+
+/* Tên */
+
+.contact-name{
+font-size:20px;
+color:#C8A96A;
+letter-spacing:1.5px;
+margin-bottom:4px;
+font-weight:600;
+
+text-shadow:0 0 10px rgba(200,169,106,0.4);
+}
+
+/* Chức vụ */
+
+.contact-role{
+font-size:14px;
+color:#aaa;
+margin-bottom:12px;
+letter-spacing:1px;
+}
+
+/* Phone */
+
+.contact-phone a{
+color:#C8A96A;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+}
+
+/* hover phone */
+
+.contact-phone a:hover{
+color:#fff;
+text-shadow:0 0 10px rgba(200,169,106,0.7);
+}
 /* HOVER BUNG EFFECT */
 
 .contact-card:hover{
