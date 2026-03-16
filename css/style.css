@@ -97,13 +97,13 @@ background:#a88c54;
 /* ================= HERO ================= */
 
 .hero{
-height:100vh;
+min-height:60vh;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 background:linear-gradient(135deg,#111,#222);
-padding:80px 20px;
+padding:120px 20px 80px 20px;
 }
 
 .hero h1{
