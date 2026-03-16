@@ -1,19 +1,15 @@
 const sections = document.querySelectorAll(".section");
 
-function revealSections(){
-
-sections.forEach(section=>{
-
-const top = section.getBoundingClientRect().top;
-const trigger = window.innerHeight * 0.85;
-
-if(top < trigger){
-section.classList.add("show");
-}
-
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+},{
+    threshold:0.2
 });
 
-}
-
-window.addEventListener("scroll",revealSections);
-revealSections();
+sections.forEach(section=>{
+    observer.observe(section);
+});
