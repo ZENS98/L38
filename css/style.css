@@ -241,11 +241,9 @@ max-width:420px;
 margin:auto;
 text-align:center;
 
-border:1px solid rgba(255,255,255,0.08);
+border:1px solid rgba(200,169,106,0.2);
 
-box-shadow:
-0 0 15px rgba(200,169,106,0.15),
-0 0 35px rgba(200,169,106,0.05);
+animation:goldGlow 4s ease-in-out infinite;
 
 transition:all 0.35s ease;
 }
