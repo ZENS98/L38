@@ -40,19 +40,16 @@ z-index:1000;
 /* NAV */
 
 .nav{
-position:relative;
 display:flex;
 align-items:center;
 justify-content:center;
 padding:15px 40px;
 }
 
-/* LOGO CENTER */
+/* LOGO CENTER FIX */
 
 .logo{
-position:absolute;
-left:50%;
-transform:translateX(-50%);
+text-align:center;
 }
 
 .logo h1{
@@ -60,6 +57,7 @@ margin:0;
 font-size:22px;
 color:#C8A96A;
 font-weight:bold;
+letter-spacing:2px;
 }
 
 /* MENU */
@@ -188,21 +186,37 @@ gap:40px;
 margin-top:40px;
 }
 
+/* CARD WITH LUXURY GLOW */
+
 .contact-card{
 background:#1a1a1a;
 padding:30px;
-border-radius:12px;
+border-radius:14px;
 max-width:420px;
 margin:auto;
-transition:0.35s;
-border:1px solid rgba(255,255,255,0.05);
 text-align:center;
+
+border:1px solid rgba(255,255,255,0.08);
+
+box-shadow:
+0 0 15px rgba(200,169,106,0.15),
+0 0 35px rgba(200,169,106,0.05);
+
+transition:all 0.35s ease;
 }
 
+/* HOVER BUNG EFFECT */
+
 .contact-card:hover{
-transform:translateY(-5px);
-box-shadow:0 10px 25px rgba(0,0,0,0.6);
+
+transform:translateY(-8px) scale(1.02);
+
+box-shadow:
+0 0 25px rgba(200,169,106,0.45),
+0 0 60px rgba(200,169,106,0.15);
+
 border:1px solid #C8A96A;
+
 }
 
 /* QR IMAGE */
@@ -219,18 +233,18 @@ margin-right:auto;
 transition:0.3s;
 }
 
-/* hover glow */
+/* QR HOVER GLOW */
 
 .contact-card img:hover{
-transform:scale(1.06);
-box-shadow:0 0 18px rgba(200,169,106,0.7);
+transform:scale(1.08);
+box-shadow:0 0 25px rgba(200,169,106,0.7);
 }
 
-/* click effect */
+/* QR CLICK EFFECT */
 
 .contact-card img:active{
-transform:scale(1.12);
-box-shadow:0 0 30px rgba(200,169,106,1);
+transform:scale(1.15);
+box-shadow:0 0 35px rgba(200,169,106,1);
 }
 
 /* ================= FOOTER ================= */
