@@ -9,9 +9,7 @@
 <title>CÔNG TY L38 | Import Export Services & Trading</title>
 
 <meta name="description" content="Công ty L38 chuyên cung cấp dịch vụ xuất nhập khẩu, thương mại và kết nối đối tác quốc tế.">
-
 <meta name="keywords" content="L38, xuất nhập khẩu, import export, logistics, thương mại quốc tế">
-
 <meta name="author" content="L38 Company">
 
 <link rel="stylesheet" href="css/style.css">
@@ -33,7 +31,7 @@
 
 <ul class="menu">
 
-<li><a href="#">Home</a></li>
+<li><a href="index.html">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#services">Services</a></li>
 <li><a href="#contact">Contact</a></li>
@@ -70,10 +68,8 @@
 <h2>Giới thiệu công ty</h2>
 
 <p>
-
 Công ty L38 hoạt động trong lĩnh vực xuất nhập khẩu, thương mại và kết nối đối tác quốc tế.
 Chúng tôi cam kết mang đến giải pháp giao thương minh bạch, hiệu quả và bền vững.
-
 </p>
 
 </div>
@@ -92,26 +88,18 @@ Chúng tôi cam kết mang đến giải pháp giao thương minh bạch, hiệu
 <div class="service-grid">
 
 <div class="service-card">
-
 <h3>Import Export</h3>
 <p>Dịch vụ xuất nhập khẩu hàng hóa trong và ngoài nước.</p>
-
 </div>
 
-
 <div class="service-card">
-
 <h3>Trade</h3>
 <p>Kết nối đối tác và phát triển thương mại quốc tế.</p>
-
 </div>
 
-
 <div class="service-card">
-
 <h3>Logistics</h3>
 <p>Hỗ trợ vận chuyển và thủ tục xuất nhập khẩu.</p>
-
 </div>
 
 </div>
@@ -179,7 +167,17 @@ Chúng tôi cam kết mang đến giải pháp giao thương minh bạch, hiệu
 
 </footer>
 
+
 <script src="js/background.js"></script>
 <script src="js/scroll.js"></script>
+
+<!-- FIX: tránh tự nhảy xuống anchor khi load -->
+<script>
+if (window.location.hash) {
+history.replaceState(null, null, ' ');
+window.scrollTo(0,0);
+}
+</script>
+
 </body>
 </html>
