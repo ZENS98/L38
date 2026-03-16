@@ -437,3 +437,19 @@ color:#C8A96A !important;
 color:#ffffff !important;
 text-shadow:0 0 10px rgba(200,169,106,0.8);
 }
+
+.contact-name{
+font-size:20px;
+color:#ffffff;
+font-weight:600;
+letter-spacing:1px;
+margin-bottom:4px;
+}
+
+.contact-role{
+color:#bbb;
+font-size:14px;
+letter-spacing:1px;
+margin-bottom:6px;
+}
+
