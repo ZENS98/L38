@@ -412,3 +412,19 @@ opacity:1;
 transform:translateY(0);
 }
 
+/* PHONE COLOR FIX */
+
+.contact-phone a{
+color:#C8A96A;
+text-decoration:none;
+font-weight:500;
+}
+
+.contact-phone a:visited{
+color:#C8A96A;
+}
+
+.contact-phone a:hover{
+color:#fff;
+text-shadow:0 0 10px rgba(200,169,106,0.7);
+}
