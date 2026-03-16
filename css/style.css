@@ -32,7 +32,9 @@ z-index:-1;
 .header{
 background:rgba(0,0,0,0.85);
 backdrop-filter:blur(6px);
-position:relative;
+
+position:static;   /* bỏ hoàn toàn sticky */
+width:100%;
 }
 
 /* NAV */
