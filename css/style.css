@@ -330,5 +330,8 @@ text-align:center;
 .contact-detail{
 text-align:center;
 }
-
+}
+.container{
+max-width:1200px;
+margin:auto;
 }
